@@ -30,11 +30,13 @@ const Title = styled("h2", {
   "@phone": {
     fontSize: "$3",
   },
+  length: 0
 });
 
 const Text = styled("span", {
   fontSize: "12px",
   marginLeft: "4px",
+  length: 0
 });
 
 const Story: NextPage<Props> = (props: Props) => {

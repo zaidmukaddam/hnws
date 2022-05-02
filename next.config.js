@@ -22,8 +22,13 @@ module.exports = {
     async redirects() {
         return [{
             source: "/",
-            destination: "/page/1",
+            destination: "/top/1",
             permanent: true,
-        }, ];
+          },
+          {
+            source: "/page/1",
+            destination: "/top/1",
+            permanent: true,
+          },];
     },
 };
