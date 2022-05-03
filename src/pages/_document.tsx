@@ -26,6 +26,7 @@ export default class Document extends NextDocument {
           />
           {/* link to  */}
           <link rel="manifest" href="/img/meta/manifest.json" />
+          <script async src="https://cdn.splitbee.io/sb.js"></script>
         </Head>
         <body>
           <Main />
